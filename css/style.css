@@ -1,0 +1,356 @@
+body {
+    background-color: rgb(127, 221, 255);
+}
+
+* img {
+    border-radius: 9px;
+}
+
+
+#nav_bar {
+    text-align: center;
+    margin-top: 20px;
+    
+ }
+
+
+#nav_bar li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#nav_bar a{
+    text-decoration: none
+
+}
+
+#nav_bar a:hover{
+    color:yellow;
+
+}
+
+
+
+#homeh1 {
+    text-align: center;
+}
+
+#homeh1 h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#homeh1 h2 {
+
+}
+#himages img {
+    border-radius: 20px;
+}
+
+#himages img:hover {
+    opacity: 0.7;
+}
+
+#homesec a:hover {
+    color:aliceblue;
+}
+
+
+#homesec p{
+    text-align: center;
+}
+
+#homeh1 em {
+ color:yellow;
+}
+
+#h1 {
+    height: 400px;
+    width: 500px;
+    
+}
+
+#h2 {
+    height: 400px;
+    width: 500px;
+}
+
+#himages {
+    text-align: center;
+}
+
+#socials {
+    text-align: right;
+    margin-top: 25px;
+}
+
+#socials img{
+    height: 50px;
+    width: 250px;
+}
+
+
+
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+
+#div1 aside{
+    padding:10px;
+    text-align: center;
+}
+#div1 aside img{
+    position: center;
+}
+
+#act_aside1 img {
+    width: 500px;
+    height: 350px;
+    
+}
+
+
+#act_aside2 img {
+    width: 500px;
+    height: 350px;
+}   
+
+
+#act_aside1 li{
+    list-style: none;
+    font-size:20px
+}
+
+#act_aside2 li{
+    list-style: none;
+    font-size:20px
+}
+
+
+#acth1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+#leisure{
+    display: flex;
+    justify-content: center;
+}
+
+#leisure_aside {
+    display: flex;
+    justify-content: center;
+
+}
+
+#leisure img {
+    width: 500px;
+    height: 400px;
+}
+
+#leisure_aside {
+    margin-top: 120px;
+}
+
+#leisure_aside li{
+    list-style: circle;
+}
+
+#leih1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#lodgeh1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#lodge_aside1 img{
+    width: 500px;
+    height: 400px;
+    
+}
+
+#lodge_aside1 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+#lodge_aside2 img{
+    width: 500px;
+    height: 400px;
+}
+
+#lodge_aside2 p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+#lodge_grid{
+    display: grid;
+    text-align: center;
+}
+
+#lodge_aside1 {
+    grid-area: 2/3;
+}
+
+#lodge_aside2 {
+    grid-area: 4/4;
+
+}
+
+#p1{
+    grid-area: 2/4;
+    margin-top: 160px;
+    font-size: 20px;
+}
+
+#p2{
+    grid-area: 4/3;
+    margin-top: 160px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+#foodh1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+}
+
+#food {
+    display: grid;
+}
+
+
+#food_div1 img{
+    height: 300px; 
+    width: 400px;
+
+}
+
+#food_div2 img {
+    height: 300px; 
+    width: 400px;
+}
+
+#food_div3 img {
+    height: 300px; 
+    width: 400px;
+}
+
+
+#food_div1{
+    grid-area: 4/5;
+}
+
+#f1 {
+    grid-area: 4/3;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 15px;
+}
+    
+#food_div2{
+    grid-area: 2/3;
+}
+
+#f2 {
+    grid-area: 2/5;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 15px;
+
+}
+
+
+#food_div3{
+    grid-area: 2/6;
+}
+
+#f3 {
+    grid-area: 4/6;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+#transph1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#transp_div{
+    display: grid;
+}
+
+#transp_aside {
+    grid-area: 2/3;
+    margin-top: 120px;
+
+}
+
+#transp_aside li{
+    list-style: circle;
+    font-size: 20px;
+}
+
+#transp_aside2 {
+    grid-area: 2/5;
+}
+
+#transp_aside2 img {
+    width: 400px;
+    height: 500px;
+}
+
+
+
+
+
+#faqh1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#faqdiv {
+    display: grid
+}
+
+#form{
+    justify-self: center;
+}
