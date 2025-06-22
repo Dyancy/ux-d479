@@ -96,6 +96,14 @@ body {
     width: 250px;
 }
 
+#social img{
+    height: 50px;
+    width: 250px;
+}
+
+#social {
+    text-align: right;
+}
 
 
 #div1 {
